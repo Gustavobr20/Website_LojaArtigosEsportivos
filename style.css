@@ -1,0 +1,132 @@
+div {
+    display: block;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+    color: white;
+}
+
+.cabecalho .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.container .menu-cabecalho ul{  
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-cabecalho a {
+    text-decoration: none;
+    color: #6c757d;
+    font-size: 13px;
+}
+
+.menu-cabecalho li {
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+.logo {
+   margin-left: 30px;
+   font-size: 20px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #6c757d;
+    text-align: left;
+}
+
+.logo a:hover{
+    color: #6c757d;
+}
+
+
+a:hover {
+    color: #a5abb1;
+}
+
+.carrinho {
+    margin-right: 50px;
+}
+
+.container-menu .menu-principal {
+    border: 1px solid #e1e9ef;
+
+}
+
+.container-menu .menu-principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.container-menu .menu-principal ul {
+    display: flex;
+}
+
+.container-menu .menu-principal a {
+    text-decoration: none;
+    color:#6c757d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.container-menu .menu-principal a:hover {
+    color: #a5abb1;
+}
+
+.container-menu .capa-principal img {
+    width: 100%;
+}
+
+.container-conteudo .produto-promocao {
+    color: #6c757d;
+    text-align: center;
+    margin-top: 50px;
+    margin: 1px solid black;
+}
+
+
+.box-promoçoes{
+    width: 100%;
+    height: 100%;
+}
+
+.container-conteudo .container-maisvendidos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-conteudo .container-maisvendidos .box-maisvendidos{
+    width: 200px;
+    height: 200px;
+    display: inline-flex;
+    margin: 20px 40px 0px 0px;
+    background-color: rgba(231, 229, 229, 0.664);
+}
+
+.rodapé{
+    margin-top: 200px;
+    padding-bottom: 20px;
+    background-color: white;
+    color: #6c757d;
+    text-align: center;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
